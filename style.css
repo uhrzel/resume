@@ -1,0 +1,206 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+body {
+  background-color: lightblue;
+  display: flex;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background: #fff;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 9.1);
+  margin: 50px;
+}
+.container .left-side {
+  background-color: #16445c;
+  position: relative;
+  padding: 40px;
+}
+.container .right-side {
+  position: relative;
+  padding: 40px;
+}
+.name, .niche{
+    color:#fff;
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.profile .profile-img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile .profile-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile-name h1 {
+  font-family: Arial black;
+  font-size: 30px;
+  text-align: center;
+}
+.niche h2 {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  text-align: center;
+}
+.experience-label h1 {
+  color: #16445c;
+}
+.hr {
+  width: 100%; /* Set the desired width for the <hr> element */
+  border: none; /* Remove the default border of the <hr> element */
+  height: 2px; /* Set the height of the <hr> element (optional) */
+  background-color: #000; /* Set the color of the <hr> element (optional) */
+  margin-left: 0;
+}
+.contact-linkedin a {
+  text-decoration: none;
+  color: #000;
+}
+.location a {
+  text-decoration: none;
+  color: #000;
+}
+
+.language-section {
+  font-family: Arial, sans-serif;
+  width: 400px;
+  margin-left: 0%;
+}
+.language {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.language-name {
+  flex: 1;
+}
+
+.language-bar {
+  flex: 3;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.language-fill {
+  height: 100%;
+  background-color: #3369e6;
+}
+
+.language-percent {
+  flex: 1;
+  text-align: right;
+}
+.about h1 {
+  color: #16445c;
+}
+.about:last-child {
+  margin-bottom: 0;
+}
+.experience {
+  display: flex;
+  flex-direction: row;
+}
+.label-description {
+  margin-right: 50px;
+}
+.skills-section {
+  font-family: Arial, sans-serif;
+  width: 400px;
+  margin-left: 0%;
+}
+.skills {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.skills-name {
+  font-family: "Poppins" sans-serif;
+  font-size: 16px;
+  flex: 1;
+}
+.skills-bar {
+  flex: 3;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skills-fill-html {
+  height: 100%;
+  background-color: #d66203;
+}
+.skills-fill-css {
+  height: 100%;
+  background-color: #3369e6;
+}
+
+.skills-fill-javascript {
+  height: 100%;
+  background-color: #c0a600;
+}
+
+.skills-fill-klaviyo {
+  height: 100%;
+  background-color: #03ac58;
+}
+
+.skills-fill-mailchimp {
+  height: 100%;
+  background-color: #29270e;
+}
+.skills-label{
+    color: #16445c;
+    margin-bottom: 50px;
+}
+.skills-percent {
+  flex: 1;
+  text-align: right;
+}
+.interest-label {
+  margin-top: 20px;
+  color: #16445c;
+}
+.interest {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.interest-item {
+  display: flex;
+  align-items: center;
+  width: 48%; /* Adjust as necessary */
+  margin-bottom: 10px;
+}
+
+.interest-item i {
+  margin-right: 10px;
+}
+.interest-name {
+  font-family: "Poppins" sans-serif;
+  font-size: 18px;
+}
