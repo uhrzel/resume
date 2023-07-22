@@ -216,17 +216,16 @@ h3 {
 
 .label-description {
   font-family: Arial, sans-serif;
-  width: 30px;
+  width: 20px;
 }
 
 .experience-year {
   font-family: Arial, sans-serif;
-  width: 30px;
+  width: 20px;
 }
 
 .experience-description p {
-  margin-left: 110px;
-  /* Adjust the margin value to create the desired gap between the years and the description */
+  margin-left: 100px;
 }
 
 .skills-section {
