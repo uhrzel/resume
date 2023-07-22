@@ -216,12 +216,13 @@ h3 {
 
 .label-description {
   font-family: Arial, sans-serif;
-  width: 20px;
+  width: 30px;
 }
 
 .experience-year {
   font-family: Arial, sans-serif;
-  width: 20px;
+  width: 30px;
+  font-size: 16px;
 }
 
 .experience-description p {
