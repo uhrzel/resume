@@ -221,9 +221,8 @@ h3 {
 
 .year {
   font-family: Arial, sans-serif;
-
+  width: 30px;
 }
-
 
 .experience-description p {
   margin-left: 110px;
