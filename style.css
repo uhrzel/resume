@@ -25,6 +25,7 @@ body {
 }
 
 .container .right-side {
+  background-color: #fff;
   position: relative;
   padding: 40px;
 }
